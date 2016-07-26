@@ -1,7 +1,7 @@
 {
   "name": "htmllint-simple-cli",
   "version": "0.1.0",
-  "description": "A simple CLI for HtmlLint",
+  "description": "A simple CLI-wrapper for htmllint",
   "author": "Sebastian Senf <contact@mustardamus.com>",
   "bin": {
     "htmllint": "index.js"
@@ -14,9 +14,16 @@
   "scripts": {
     "lint": "standard"
   },
-  "keywords": [],
+  "keywords": [
+    "htmllint",
+    "lint",
+    "html",
+    "cli",
+    "linter"
+  ],
   "license": "MIT",
   "dependencies": {
+    "camelcase": "^3.0.0",
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
     "globby": "^6.0.0",
